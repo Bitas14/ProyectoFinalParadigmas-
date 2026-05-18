@@ -2,10 +2,17 @@ using ProyectoFinal.Models;
 
 namespace ProyectoFinal.Functional
 {
-    // PROGRAMACIÓN FUNCIONAL
-    // Todos los métodos son funciones puras: dado el mismo input, siempre el mismo output.
-    // No modifican estado externo (sin efectos secundarios).
-    // Usan LINQ (Where, Select, Aggregate) y Func<>/Action<> como parámetros de alto orden.
+    /// <summary>
+    /// PARADIGMA FUNCIONAL - 20%
+    /// Todos los métodos son funciones puras: dado el mismo input, siempre el mismo output.
+    /// No modifican estado externo (sin efectos secundarios).
+    /// 
+    /// Características:
+    /// - Funciones puras sin mutación de estado
+    /// - LINQ (Where, Select, Aggregate) para transformaciones
+    /// - Func<> y Action<> como parámetros de alto orden
+    /// - Composición funcional y filtros configurables
+    /// </summary>
     public static class ReporteNotas
     {
         // FUNCIONAL - Función pura con Func<> como parámetro de alto orden
