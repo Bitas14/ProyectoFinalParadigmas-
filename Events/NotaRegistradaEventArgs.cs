@@ -1,8 +1,10 @@
 namespace ProyectoFinal.Events
 {
-    // PROGRAMACIÓN ORIENTADA A EVENTOS
-    // EventArgs propio que transporta información semánticamente significativa del dominio:
-    // "Una nota fue registrada" — no solo un evento técnico, sino un suceso de negocio
+    /// <summary>
+    /// PARADIGMA DE EVENTOS - Parte del Reactivo
+    /// Encapsula información de dominio cuando se registra una nota.
+    /// Permite que múltiples suscriptores reaccionen al evento de forma desacoplada.
+    /// </summary>
     public class NotaRegistradaEventArgs : EventArgs
     {
         public int EstudianteId { get; }

@@ -1,8 +1,10 @@
 namespace ProyectoFinal.Events
 {
-    // PROGRAMACIÓN ORIENTADA A EVENTOS
-    // Evento semánticamente significativo: el promedio del estudiante cambió.
-    // Esto es un cambio de estado del dominio, no solo un evento técnico.
+    /// <summary>
+    /// PARADIGMA DE EVENTOS - Parte del Reactivo
+    /// Captura cambios de estado en el dominio: cuando el promedio de un estudiante se actualiza.
+    /// Permite desacoplamiento entre la lógica de negocio y la reacción a eventos.
+    /// </summary>
     public class PromedioActualizadoEventArgs : EventArgs
     {
         public int EstudianteId { get; }
