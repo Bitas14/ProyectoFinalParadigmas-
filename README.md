@@ -2,6 +2,16 @@
 
 Aplicación de consola en **.NET 8 / C#** que integra cuatro paradigmas de programación sobre un dominio de gestión académica.
 
+## 📋 Índice de Contenidos
+
+- [Dominio](#dominio)
+- [Paradigmas Implementados](#paradigmas-implementados)
+  - [1. Orientado a Objetos (POO)](#1-orientado-a-objetos-poo--15)
+  - [2. Paradigma de Aspectos (AOP)](#2-paradigma-de-aspectos-aop--20)
+  - [3. Programación Funcional](#3-programación-funcional--20)
+  - [4. Programación Reactiva / Eventos](#4-programación-reactiva--eventos--15)
+- [Decisiones Arquitectónicas](#decisiones-arquitectónicas)
+
 ---
 
 ## Dominio
