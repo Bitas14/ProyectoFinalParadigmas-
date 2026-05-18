@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ProyectoFinal</RootNamespace>
+    <AssemblyName>ProyectoFinal</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Persistencia CSV (del Taller 1) -->
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+
+    <!-- Paradigma de Aspectos: Castle Windsor (contenedor DI) + Castle Core (DynamicProxy) -->
+    <PackageReference Include="Castle.Windsor" Version="6.0.0" />
+    <PackageReference Include="Castle.Core" Version="5.1.1" />
+  </ItemGroup>
+
+</Project>
