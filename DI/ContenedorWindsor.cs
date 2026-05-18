@@ -6,8 +6,16 @@ using ProyectoFinal.Services;
 
 namespace ProyectoFinal.DI
 {
-    // PARADIGMA DE ASPECTOS - Castle Windsor como contenedor de Inyección de Dependencias
-    // SOLID - DIP: los servicios se registran y resuelven como interfaces, no como implementaciones
+    /// <summary>
+    /// PARADIGMA DE ASPECTOS (AOP) - 20%
+    /// Implementado con Castle Windsor como contenedor de Inyección de Dependencias
+    /// y Castle DynamicProxy para interceptores de comportamiento transversal.
+    /// 
+    /// Características:
+    /// - LoggingInterceptor: Registra entrada/salida de métodos automáticamente
+    /// - ValidationInterceptor: Valida parámetros centralmente (nulos, rangos, etc.)
+    /// - SOLID DIP: servicios se registran como interfaces, permitiendo interceptación
+    /// </summary>
     public static class ContenedorWindsor
     {
         private static IWindsorContainer? _contenedor;
