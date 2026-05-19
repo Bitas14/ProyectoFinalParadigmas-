@@ -44,7 +44,8 @@
 4. **Asociación**: Nota se asocia con Estudiante y Materia (línea sencilla)
 5. **Implementación de Interfaz**: Persona, Materia, Nota implementan IIdentifiable e IReportable (línea punteada)
 
-```  classDiagram
+```mermaid
+  classDiagram
 
       %% ── Interfaces (Models) ──────────────────────────────────
       class IIdentifiable {
